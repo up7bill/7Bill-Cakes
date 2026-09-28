@@ -1,0 +1,2412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>7Bill Cakes | Custom Cakes</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- =========================
+         HEADER
+========================== -->
+    <header class="site-header">
+        <div class="container header-inner">
+
+           <a href="index.html" class="logo">
+    <span class="logo-7bill">
+        7B<span class="flame-i">I<span class="mini-flame"></span></span>LL
+    </span>
+    <span class="logo-cakes">CAKES</span>
+        </a>
+
+            <nav class="main-nav" id="mainNav">
+                <a href="bio.html">Bio</a>
+                <a href="cake portfolio.html">Cakefolio</a> 
+                <a href="menu.html">Menu</a>
+                 <a href="policies.html">Policies</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <a href="order a cake.html" class="btn btn-header">
+                Order a Cake
+            </a>
+
+            <button
+                class="mobile-menu-btn"
+                id="mobileMenuBtn"
+                aria-label="Open navigation menu"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+    </header>
+
+    <main>
+
+
+        <!-- ========================================
+             ORDER PAGE
+        ========================================= -->
+
+        <section class="order-page">
+
+            <div class="container">
+
+
+                <!-- ========================================
+                     PAGE INTRO
+                ========================================= -->
+
+                <div class="order-heading">
+
+                    <p class="section-eyebrow">
+                        7Bill Cakes
+                    </p>
+
+                    <h1>
+                        Build Your Cake.
+                    </h1>
+
+                    <p class="order-intro">
+                        Tell me what you're celebrating,
+                        choose your cake options, and submit
+                        your request for review.
+                    </p>
+
+                </div>
+
+
+
+                <!-- ========================================
+                     ORDER FORM
+                ========================================= -->
+
+                <form
+                    class="cake-order-form"
+                    id="cakeOrderForm"
+                      action="https://formspree.io/f/xgaewroo"
+                      method="POST"
+                >
+
+
+                    <!-- ========================================
+                         01 - CUSTOMER INFO
+                    ========================================= -->
+
+                    <section class="order-form-section">
+
+                        <div class="order-section-heading">
+
+                            <span class="order-section-number">
+                                01
+                            </span>
+
+                            <div>
+
+                                <p class="order-section-label">
+                                    About You
+                                </p>
+
+                                <h2>
+                                    Your Information
+                                </h2>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="order-fields two-column">
+
+
+                            <div class="order-field">
+
+                                <label for="customerName">
+                                    Name *
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="customerName"
+                                    name="customerName"
+                                    placeholder="First and last name"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <div class="order-field">
+
+                                <label for="customerEmail">
+                                    Email *
+                                </label>
+
+                                <input
+                                    type="email"
+                                    id="customerEmail"
+                                    name="customerEmail"
+                                    placeholder="you@email.com"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <div class="order-field">
+
+                                <label for="customerPhone">
+                                    Phone *
+                                </label>
+
+                                <input
+                                    type="tel"
+                                    id="customerPhone"
+                                    name="customerPhone"
+                                    placeholder="Phone number"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <div class="order-field">
+
+                                <label for="contactMethod">
+                                    Preferred Contact Method *
+                                </label>
+
+                                <select
+                                    id="contactMethod"
+                                    name="contactMethod"
+                                    required
+                                >
+
+                                    <option value="">
+                                        Select one
+                                    </option>
+
+                                    <option value="text">
+                                        Text
+                                    </option>
+
+                                    <option value="email">
+                                        Email
+                                    </option>
+
+                                    <option value="phone">
+                                        Phone Call
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+                        </div>
+
+                    </section>
+
+
+
+                    <!-- ========================================
+                         02 - EVENT DETAILS
+                    ========================================= -->
+
+                    <section class="order-form-section">
+
+                        <div class="order-section-heading">
+
+                            <span class="order-section-number">
+                                02
+                            </span>
+
+                            <div>
+
+                                <p class="order-section-label">
+                                    The Occasion
+                                </p>
+
+                                <h2>
+                                    Event Details
+                                </h2>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="order-fields two-column">
+
+
+                            <div class="order-field">
+
+                                <label for="eventType">
+                                    Occasion *
+                                </label>
+
+                                <select
+                                    id="eventType"
+                                    name="eventType"
+                                    required
+                                >
+
+                                    <option value="">
+                                        Select occasion
+                                    </option>
+
+                                    <option value="birthday">
+                                        Birthday
+                                    </option>
+
+                                    <option value="anniversary">
+                                        Anniversary
+                                    </option>
+
+                                    <option value="graduation">
+                                        Graduation
+                                    </option>
+
+                                    <option value="baby-shower">
+                                        Baby Shower
+                                    </option>
+
+                                    <option value="wedding">
+                                        Wedding
+                                    </option>
+
+                                    <option value="holiday">
+                                        Holiday
+                                    </option>
+
+                                    <option value="other">
+                                        Other
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+                            <div class="order-field">
+
+                                <label for="eventDate">
+                                    Date Cake Is Needed *
+                                </label>
+
+                                <input
+                                    type="date"
+                                    id="eventDate"
+                                    name="eventDate"
+                                    required
+                                >
+
+                                <p
+                                    class="field-message"
+                                    id="rushMessage"
+                                ></p>
+
+                            </div>
+
+
+                        </div>
+
+                    </section>
+
+
+
+                    <!-- ========================================
+                         03 - CAKE TYPE
+                    ========================================= -->
+
+                    <section class="order-form-section">
+
+                        <div class="order-section-heading">
+
+                            <span class="order-section-number">
+                                03
+                            </span>
+
+                            <div>
+
+                                <p class="order-section-label">
+                                    Start Building
+                                </p>
+
+                                <h2>
+                                    Choose Your Cake
+                                </h2>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="order-fields two-column">
+
+
+                            <div class="order-field">
+
+                                <label for="cakeType">
+                                    Product *
+                                </label>
+
+                                <select
+                                    id="cakeType"
+                                    name="cakeType"
+                                    required
+                                >
+
+                                    <option value="">
+                                        Select product
+                                    </option>
+
+                                    <option value="round">
+                                        Round Layer Cake
+                                    </option>
+
+                                    <option value="heart">
+                                        Heart-Shaped Cake
+                                    </option>
+
+                                    <option value="star">
+                                        Star-Shaped Cake
+                                    </option>
+
+                                    <option value="sheet">
+                                        Sheet Cake
+                                    </option>
+
+                                    <option value="cupcakes">
+                                        Cupcakes
+                                    </option>
+
+                                    <option value="bundt">
+                                        Bundt / Pound Cake
+                                    </option>
+
+                                    <option value="bento">
+                                        Bento Box
+                                    </option>
+
+                                    <option value="tasting">
+                                        Cake Tasting Bundle
+                                    </option>
+
+                                    <option value="specialty">
+                                        Specialty / Other
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+
+                            <!-- ROUND SIZE -->
+
+                            <div
+                                class="order-field conditional-field"
+                                id="roundSizeField"
+                            >
+
+                                <label for="roundSize">
+                                    Round Cake Size
+                                </label>
+
+                                <select
+                                    id="roundSize"
+                                    name="roundSize"
+                                >
+
+                                    <option value="">
+                                        Select size
+                                    </option>
+
+                                    <option value="4">
+                                        4-inch
+                                    </option>
+
+                                    <option value="6">
+                                        6-inch
+                                    </option>
+
+                                    <option value="8">
+                                        8-inch
+                                    </option>
+
+                                    <option value="10">
+                                        10-inch
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+
+                            <!-- HEART SIZE -->
+
+                            <div
+                                class="order-field conditional-field"
+                                id="heartSizeField"
+                            >
+
+                                <label for="heartSize">
+                                    Heart Cake Size
+                                </label>
+
+                                <select
+                                    id="heartSize"
+                                    name="heartSize"
+                                >
+
+                                    <option value="10">
+                                        10-inch
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+
+                            <!-- STAR SIZE -->
+
+                            <div
+                                class="order-field conditional-field"
+                                id="starSizeField"
+                            >
+
+                                <label for="starSize">
+                                    Star Cake Size
+                                </label>
+
+                                <select
+                                    id="starSize"
+                                    name="starSize"
+                                >
+
+                                    <option value="10">
+                                        10-inch
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+
+                            <!-- SHEET SIZE -->
+
+                            <div
+                                class="order-field conditional-field"
+                                id="sheetSizeField"
+                            >
+
+                                <label for="sheetSize">
+                                    Sheet Cake Size
+                                </label>
+
+                                <select
+                                    id="sheetSize"
+                                    name="sheetSize"
+                                >
+
+                                    <option value="">
+                                        Select size
+                                    </option>
+
+                                    <option value="9x13">
+                                        9 × 13
+                                    </option>
+
+                                    <option value="11x15">
+                                        11 × 15
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+
+                            <!-- CUPCAKE QUANTITY -->
+
+                            <div
+                                class="order-field conditional-field"
+                                id="cupcakeQuantityField"
+                            >
+
+                                <label for="cupcakeQuantity">
+                                    Cupcake Quantity
+                                </label>
+
+                                <input
+                                    type="number"
+                                    id="cupcakeQuantity"
+                                    name="cupcakeQuantity"
+                                    min="1"
+                                    placeholder="Number of cupcakes"
+                                >
+
+                            </div>
+
+                            <!-- BUNDT / POUND OPTIONS -->
+
+<div
+    class="order-field conditional-field"
+    id="bundtOptionsField"
+>
+
+    <label for="bundtOption">
+        Bundt / Pound Cake Size *
+    </label>
+
+    <select
+        id="bundtOption"
+        name="bundtOption"
+    >
+
+        <option value="">
+            Select size
+        </option>
+
+        <option value="standard">
+            Standard — 1 Cake
+        </option>
+
+        <option value="small">
+            Small — 4 Cakes
+        </option>
+
+        <option value="mini-6">
+            Mini — 6 Cakes
+        </option>
+
+        <option value="mini-12">
+            Mini — 12 Cakes
+        </option>
+
+        <option value="mini-18">
+            Mini — 18 Cakes
+        </option>
+
+        <option value="mini-24">
+            Mini — 24 Cakes
+        </option>
+
+        <option value="mini-other">
+            Mini — Other / Large Order
+        </option>
+
+    </select>
+
+</div>
+
+
+<!-- CUSTOM MINI QUANTITY -->
+
+<div
+    class="order-field conditional-field"
+    id="bundtCustomQuantityField"
+>
+
+    <label for="bundtCustomQuantity">
+        Mini Cake Quantity *
+    </label>
+
+    <input
+        type="number"
+        id="bundtCustomQuantity"
+        name="bundtCustomQuantity"
+        min="1"
+        placeholder="Enter quantity"
+    >
+
+</div>
+
+                            <!-- SPECIALTY DESCRIPTION -->
+
+                            <div
+                                class="order-field conditional-field full-width"
+                                id="specialtyCakeField"
+                            >
+
+                                <label for="specialtyCake">
+                                    What Are You Looking For?
+                                </label>
+
+                                <textarea
+                                    id="specialtyCake"
+                                    name="specialtyCake"
+                                    rows="4"
+                                    placeholder="Describe the cake, size, or specialty item you're interested in."
+                                ></textarea>
+
+                            </div>
+
+
+                        </div>
+
+                    </section>
+
+
+
+                    <!-- ========================================
+                         04 - FLAVOR + ICING
+                    ========================================= -->
+
+                    <section class="order-form-section">
+
+                        <div class="order-section-heading">
+
+                            <span class="order-section-number">
+                                04
+                            </span>
+
+                            <div>
+
+                                <p class="order-section-label">
+                                    Flavor
+                                </p>
+
+                                <h2>
+                                    What's Inside?
+                                </h2>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="order-fields two-column">
+
+                            <div
+                           class="order-field conditional-field"
+                         id="layerCountField"
+                               >
+                           <label for="layerCount">
+                                Number of Layers *
+                               </label>
+
+                               <select
+                              id="layerCount"
+                                name="layerCount"
+                               >
+                              <option value="">
+                               Select layers
+                                  </option>
+                                  </select>
+
+                                </div>
+
+
+                                <!-- BENTO FLAVOR OPTIONS -->
+
+<div
+    class="order-field conditional-field full-width"
+    id="bentoFlavorChoiceField"
+>
+
+    <fieldset class="order-fieldset">
+
+        <legend>
+            Would you like the mini cake and cupcakes to be the same flavor? *
+        </legend>
+
+        <div class="radio-options">
+
+            <label class="radio-option">
+                <input
+                    type="radio"
+                    name="bentoSameFlavor"
+                    value="yes"
+                >
+                <span>Yes</span>
+            </label>
+
+            <label class="radio-option">
+                <input
+                    type="radio"
+                    name="bentoSameFlavor"
+                    value="no"
+                >
+                <span>No</span>
+            </label>
+
+        </div>
+
+    </fieldset>
+
+</div>
+
+<!-- ========================================
+     CAKE TASTING BUNDLE
+======================================== -->
+
+<div
+    class="order-field conditional-field full-width"
+    id="tastingBundleField"
+>
+
+    <div class="tasting-bundle-intro">
+
+        <p class="field-message active">
+            Your Cake Tasting Bundle includes four 6-inch,
+            single-layer cakes. Choose a cake flavor,
+            icing base, and icing flavor for each cake below.
+        </p>
+
+    </div>
+
+
+    <!-- CAKE 1 -->
+
+    <div class="tasting-cake">
+
+        <h3>
+            Cake 1
+        </h3>
+
+        <div class="order-fields three-column">
+
+            <div class="order-field">
+
+                <label for="tastingFlavor1">
+                    Cake Flavor *
+                </label>
+
+                <select
+                    id="tastingFlavor1"
+                    name="tastingFlavor1"
+                >
+                    <option value="">
+                        Select flavor
+                    </option>
+                </select>
+
+            </div>
+
+
+            <div class="order-field">
+
+                <label for="tastingIcingBase1">
+                    Icing Base *
+                </label>
+
+                <select
+                    id="tastingIcingBase1"
+                    name="tastingIcingBase1"
+                >
+                    <option value="">
+                        Select icing base
+                    </option>
+                </select>
+
+            </div>
+
+
+            <div class="order-field">
+
+                <label for="tastingIcingFlavor1">
+                    Icing Flavor *
+                </label>
+
+                <select
+                    id="tastingIcingFlavor1"
+                    name="tastingIcingFlavor1"
+                >
+                    <option value="">
+                        Select icing flavor
+                    </option>
+                </select>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- CAKE 2 -->
+
+    <div class="tasting-cake">
+
+        <h3>
+            Cake 2
+        </h3>
+
+        <div class="order-fields three-column">
+
+            <div class="order-field">
+
+                <label for="tastingFlavor2">
+                    Cake Flavor *
+                </label>
+
+                <select
+                    id="tastingFlavor2"
+                    name="tastingFlavor2"
+                >
+                    <option value="">
+                        Select flavor
+                    </option>
+                </select>
+
+            </div>
+
+
+            <div class="order-field">
+
+                <label for="tastingIcingBase2">
+                    Icing Base *
+                </label>
+
+                <select
+                    id="tastingIcingBase2"
+                    name="tastingIcingBase2"
+                >
+                    <option value="">
+                        Select icing base
+                    </option>
+                </select>
+
+            </div>
+
+
+            <div class="order-field">
+
+                <label for="tastingIcingFlavor2">
+                    Icing Flavor *
+                </label>
+
+                <select
+                    id="tastingIcingFlavor2"
+                    name="tastingIcingFlavor2"
+                >
+                    <option value="">
+                        Select icing flavor
+                    </option>
+                </select>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- CAKE 3 -->
+
+    <div class="tasting-cake">
+
+        <h3>
+            Cake 3
+        </h3>
+
+        <div class="order-fields three-column">
+
+            <div class="order-field">
+
+                <label for="tastingFlavor3">
+                    Cake Flavor *
+                </label>
+
+                <select
+                    id="tastingFlavor3"
+                    name="tastingFlavor3"
+                >
+                    <option value="">
+                        Select flavor
+                    </option>
+                </select>
+
+            </div>
+
+
+            <div class="order-field">
+
+                <label for="tastingIcingBase3">
+                    Icing Base *
+                </label>
+
+                <select
+                    id="tastingIcingBase3"
+                    name="tastingIcingBase3"
+                >
+                    <option value="">
+                        Select icing base
+                    </option>
+                </select>
+
+            </div>
+
+
+            <div class="order-field">
+
+                <label for="tastingIcingFlavor3">
+                    Icing Flavor *
+                </label>
+
+                <select
+                    id="tastingIcingFlavor3"
+                    name="tastingIcingFlavor3"
+                >
+                    <option value="">
+                        Select icing flavor
+                    </option>
+                </select>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- CAKE 4 -->
+
+    <div class="tasting-cake">
+
+        <h3>
+            Cake 4
+        </h3>
+
+        <div class="order-fields three-column">
+
+            <div class="order-field">
+
+                <label for="tastingFlavor4">
+                    Cake Flavor *
+                </label>
+
+                <select
+                    id="tastingFlavor4"
+                    name="tastingFlavor4"
+                >
+                    <option value="">
+                        Select flavor
+                    </option>
+                </select>
+
+            </div>
+
+
+            <div class="order-field">
+
+                <label for="tastingIcingBase4">
+                    Icing Base *
+                </label>
+
+                <select
+                    id="tastingIcingBase4"
+                    name="tastingIcingBase4"
+                >
+                    <option value="">
+                        Select icing base
+                    </option>
+                </select>
+
+            </div>
+
+
+            <div class="order-field">
+
+                <label for="tastingIcingFlavor4">
+                    Icing Flavor *
+                </label>
+
+                <select
+                    id="tastingIcingFlavor4"
+                    name="tastingIcingFlavor4"
+                >
+                    <option value="">
+                        Select icing flavor
+                    </option>
+                </select>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div
+    class="order-field conditional-field full-width"
+    id="bentoCupcakeFlavorField"
+>
+
+    <label for="bentoCupcakeFlavor">
+        Cupcake Flavor *
+    </label>
+
+    <select
+        id="bentoCupcakeFlavor"
+        name="bentoCupcakeFlavor"
+    >
+        <option value="">
+            Select cupcake flavor
+        </option>
+    </select>
+
+</div>
+
+                             <!-- cake flavorS -->
+
+                            <div class="order-field">
+
+                                <label for="cakeFlavor">
+                                    Cake Flavor *
+                                </label>
+
+                                <select
+                                    id="cakeFlavor"
+                                    name="cakeFlavor"
+                                    required
+                                >
+
+                                    <option value="">
+                                        Select flavor
+                                    </option>
+
+
+                                    <optgroup label="Classic Flavors">
+
+                                        <option value="vanilla">
+                                            Vanilla
+                                        </option>
+
+                                        <option value="yellow">
+                                            Yellow Cake
+                                        </option>
+
+                                        <option value="confetti">
+                                            Confetti
+                                        </option>
+
+                                        <option value="chocolate">
+                                            Chocolate
+                                        </option>
+
+                                        <option value="strawberry">
+                                            Strawberry
+                                        </option>
+
+                                        <option value="lemon">
+                                            Lemon
+                                        </option>
+
+                                        <option value="marble">
+                                            Marble
+                                        </option>
+
+
+                                    </optgroup>
+
+
+                                    <optgroup label="Specialty Flavors">
+
+                                        <option value="carrot">
+                                            Carrot Cake
+                                        </option>
+
+                                        <option value="butter-pecan">
+                                            Butter Pecan
+                                        </option>
+
+                                        <option value="german-chocolate">
+                                            German Chocolate
+                                        </option>
+
+                                          <option value="cookies-cream">
+                                            Cookies & Cream
+                                        </option>
+
+                                        <option value="strawberry-shortcake">
+                                            Strawberry Shortcake
+                                        </option>
+
+                                        <option value="rum">
+                                            Rum Cake
+                                        </option>
+
+                                        <option value="white-chocolate">
+                                            White Chocolate
+                                        </option>
+
+                                        <option value="red-velvet">
+                                            Red Velvet
+                                        </option>
+
+                                    </optgroup>
+
+                                    <option value="other">
+                                    Other / Custom Flavor
+                                   </option>
+
+                                </select>
+
+                            </div>
+
+                            <!-- OTHER / CUSTOM FLAVOR -->
+
+<div
+    class="order-field conditional-field full-width"
+    id="otherFlavorField"
+>
+
+    <label for="otherFlavor">
+        Requested Flavor *
+    </label>
+
+    <input
+        type="text"
+        id="otherFlavor"
+        name="otherFlavor"
+        placeholder="Enter your requested flavor"
+    >
+
+    <p class="field-message active">
+        Custom flavor requests are subject to availability and approval.
+        Submission does not guarantee that the requested flavor can be accommodated.
+    </p>
+
+</div>
+
+<!-- MARBLE FLAVOR OPTIONS -->
+
+<div
+    class="order-field conditional-field full-width"
+    id="marbleFlavorField"
+>
+
+    <label>
+        Choose Two Classic Flavors *
+    </label>
+
+    <div class="order-fields two-column nested-fields">
+
+        <div class="order-field">
+
+            <label for="marbleFlavorOne">
+                Flavor 1
+            </label>
+
+            <select
+                id="marbleFlavorOne"
+                name="marbleFlavorOne"
+            >
+
+                <option value="">
+                    Select flavor
+                </option>
+
+                <option value="vanilla">
+                    Vanilla
+                </option>
+
+                <option value="yellow">
+                    Yellow Cake
+                </option>
+
+                <option value="confetti">
+                    Confetti
+                </option>
+
+                <option value="chocolate">
+                    Chocolate
+                </option>
+
+                <option value="strawberry">
+                    Strawberry
+                </option>
+
+                <option value="lemon">
+                    Lemon
+                </option>
+
+
+            </select>
+
+        </div>
+
+
+        <div class="order-field">
+
+            <label for="marbleFlavorTwo">
+                Flavor 2
+            </label>
+
+            <select
+                id="marbleFlavorTwo"
+                name="marbleFlavorTwo"
+            >
+
+                <option value="">
+                    Select flavor
+                </option>
+
+                <option value="vanilla">
+                    Vanilla
+                </option>
+
+                <option value="yellow">
+                    Yellow Cake
+                </option>
+
+                <option value="confetti">
+                    Confetti
+                </option>
+
+                <option value="chocolate">
+                    Chocolate
+                </option>
+
+                <option value="strawberry">
+                    Strawberry
+                </option>
+
+                <option value="lemon">
+                    Lemon
+                </option>
+
+            </select>
+
+        </div>
+
+    </div>
+
+    <p
+        class="field-message"
+        id="marbleFlavorMessage"
+    ></p>
+
+</div>
+                            
+     <div
+                            
+    class="order-field conditional-field full-width"
+    id="germanChocolateField"
+>
+    <p class="field-message active">
+        German Chocolate Cake comes with its traditional coconut icing.
+        Please select your preferred nut option.
+    </p>
+
+    <fieldset class="order-fieldset">
+
+        <legend>
+            Nut Choice *
+        </legend>
+
+        <div class="radio-options">
+
+            <label class="radio-option">
+
+                <input
+                    type="radio"
+                    name="germanChocolateNut"
+                    value="walnuts"
+                >
+
+                <span>
+                    Walnuts
+                </span>
+
+            </label>
+
+            <label class="radio-option">
+
+                <input
+                    type="radio"
+                    name="germanChocolateNut"
+                    value="pecans"
+                >
+
+                <span>
+                    Pecans
+                </span>
+
+            </label>
+
+        </div>
+
+    </fieldset>
+
+</div>
+
+                            <div class="order-field">
+
+                                <label for="icingBase">
+                                    Icing Base *
+                                </label>
+
+                                <select
+                                    id="icingBase"
+                                    name="icingBase"
+                                    required
+                                >
+
+                                    <option value="">
+                                        Select icing base
+                                    </option>
+
+                                    <option value="buttercream">
+                                        Buttercream
+                                    </option>
+
+                                    <option value="cream-cheese">
+                                        Cream Cheese
+                                    </option>
+
+                                </select>
+
+                                <p
+                                    class="field-message"
+                                    id="icingMessage"
+                                ></p>
+
+                            </div>
+
+
+
+                            <div class="order-field">
+
+                                <label for="icingFlavor">
+                                    Icing Flavor *
+                                </label>
+
+                                <select
+                                    id="icingFlavor"
+                                    name="icingFlavor"
+                                    required
+                                >
+
+                                    <option value="">
+                                        Select icing flavor
+                                    </option>
+
+                                    <option value="vanilla">
+                                        Vanilla
+                                    </option>
+
+                                    <option value="vanilla-bean">
+                                        Vanilla Bean
+                                    </option>
+
+                                    <option value="chocolate">
+                                        Chocolate
+                                    </option>
+
+                                    <option value="fudge">
+                                        Fudge
+                                    </option>
+
+                                    <option value="lemon">
+                                        Lemon
+                                    </option>
+
+                                    <option value="strawberry">
+                                        Strawberry
+                                    </option>
+
+                                    <option value="brown-sugar">
+                                        Brown Sugar
+                                    </option>
+
+                                    <option value="white-chocolate">
+                                        White Chocolate
+                                    </option>
+
+                                    <option value="other">
+                                 Other / Custom Icing Flavor
+                               </option>
+
+                                </select>
+
+                            </div>
+
+
+                        </div>
+
+                    </section>
+
+
+                         <!-- BENTO ICING OPTIONS -->
+
+<div
+    class="order-field conditional-field full-width"
+    id="bentoIcingChoiceField"
+>
+
+    <fieldset class="order-fieldset">
+
+        <legend>
+            Would you like the mini cake and cupcakes to have the same icing? *
+        </legend>
+
+        <div class="radio-options">
+
+            <label class="radio-option">
+                <input
+                    type="radio"
+                    name="bentoSameIcing"
+                    value="yes"
+                >
+                <span>Yes</span>
+            </label>
+
+            <label class="radio-option">
+                <input
+                    type="radio"
+                    name="bentoSameIcing"
+                    value="no"
+                >
+                <span>No</span>
+            </label>
+
+        </div>
+
+    </fieldset>
+
+</div>
+
+
+<div
+    class="order-field conditional-field"
+    id="bentoCupcakeIcingBaseField"
+>
+
+    <label for="bentoCupcakeIcingBase">
+        Cupcake Icing Base *
+    </label>
+
+    <select
+        id="bentoCupcakeIcingBase"
+        name="bentoCupcakeIcingBase"
+    >
+        <option value="">
+            Select icing base
+        </option>
+    </select>
+
+</div>
+
+
+<div
+    class="order-field conditional-field"
+    id="bentoCupcakeIcingFlavorField"
+>
+
+    <label for="bentoCupcakeIcingFlavor">
+        Cupcake Icing Flavor *
+    </label>
+
+    <select
+        id="bentoCupcakeIcingFlavor"
+        name="bentoCupcakeIcingFlavor"
+    >
+        <option value="">
+            Select icing flavor
+        </option>
+    </select>
+
+</div>
+
+
+                         <!-- OTHER / CUSTOM ICING FLAVOR -->
+
+<div
+    class="order-field conditional-field full-width"
+    id="otherIcingFlavorField"
+>
+
+    <label for="otherIcingFlavor">
+        Requested Icing Flavor *
+    </label>
+
+    <input
+        type="text"
+        id="otherIcingFlavor"
+        name="otherIcingFlavor"
+        placeholder="Enter your requested icing flavor"
+    >
+
+    <p class="field-message active">
+        Custom icing flavor requests are subject to availability and approval.
+        Submission does not guarantee that the requested flavor can be accommodated.
+    </p>
+
+</div>
+
+
+                    <!-- ========================================
+                         05 - DESIGN
+                    ========================================= -->
+
+                    <section class="order-form-section">
+
+                        <div class="order-section-heading">
+
+                            <span class="order-section-number">
+                                05
+                            </span>
+
+                            <div>
+
+                                <p class="order-section-label">
+                                    Make It Yours
+                                </p>
+
+                                <h2>
+                                    Design Details
+                                </h2>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="order-fields">
+
+
+                            <div class="order-field">
+
+                                <label for="cakeTheme">
+                                    Theme / Design *
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="cakeTheme"
+                                    name="cakeTheme"
+                                    placeholder="Birthday theme, team, character, style, etc."
+                                    required
+                                >
+
+                            </div>
+
+
+
+                            <div class="order-fields two-column nested-fields">
+
+
+                                <div class="order-field">
+
+                                    <label for="cakeColors">
+                                        Colors
+                                    </label>
+
+                                    <input
+                                        type="text"
+                                        id="cakeColors"
+                                        name="cakeColors"
+                                        placeholder="Pink, black, gold..."
+                                    >
+
+                                </div>
+
+
+                                <div class="order-field">
+
+                                    <label for="cakeMessage">
+                                        Cake Message
+                                    </label>
+
+                                    <input
+                                        type="text"
+                                        id="cakeMessage"
+                                        name="cakeMessage"
+                                        placeholder="Happy Birthday..."
+                                    >
+
+                                </div>
+
+
+                            </div>
+
+
+
+                            <!-- ADD-ONS -->
+
+                            <fieldset class="order-fieldset">
+
+                                <legend>
+                                    Design Add-Ons
+                                </legend>
+
+
+                                <div class="checkbox-grid">
+
+
+                                    <label class="checkbox-option">
+
+                                        <input
+                                            type="checkbox"
+                                            name="addons"
+                                            value="vintage-piping"
+                                        >
+
+                                        <span>
+                                            Vintage Piping
+                                        </span>
+
+                                    </label>
+
+
+                                    <label class="checkbox-option">
+
+                                        <input
+                                            type="checkbox"
+                                            name="addons"
+                                            value="airbrush"
+                                        >
+
+                                        <span>
+                                            Airbrush Designs
+                                        </span>
+
+                                    </label>
+
+
+                                    <label class="checkbox-option">
+
+                                        <input
+                                            type="checkbox"
+                                            name="addons"
+                                            value="edible-image"
+                                        >
+
+                                        <span>
+                                            Edible Image
+                                        </span>
+
+                                    </label>
+
+
+                                    <label class="checkbox-option">
+
+                                        <input
+                                            type="checkbox"
+                                            name="addons"
+                                            value="cake-topper"
+                                        >
+
+                                        <span>
+                                            Cake Topper
+                                        </span>
+
+                                    </label>
+
+
+                                    <label class="checkbox-option">
+
+                                        <input
+                                            type="checkbox"
+                                            name="addons"
+                                            value="glitter"
+                                        >
+
+                                        <span>
+                                            Glitter
+                                        </span>
+
+                                    </label>
+
+
+                                    <label class="checkbox-option">
+
+                                        <input
+                                            type="checkbox"
+                                            name="addons"
+                                            value="sprinkles"
+                                        >
+
+                                        <span>
+                                            Sprinkles
+                                        </span>
+
+                                    </label>
+
+
+                                    <label class="checkbox-option">
+
+                                        <input
+                                            type="checkbox"
+                                            name="addons"
+                                            value="candles"
+                                        >
+
+                                        <span>
+                                            Candles
+                                        </span>
+
+                                    </label>
+
+
+                                    <label class="checkbox-option">
+
+                                        <input
+                                            type="checkbox"
+                                            name="addons"
+                                            value="fruit-filling"
+                                        >
+
+                                        <span>
+                                            Fruit Filling
+                                        </span>
+
+                                    </label>
+
+
+                                    <label class="checkbox-option">
+
+                                        <input
+                                            type="checkbox"
+                                            name="addons"
+                                            value="specialty-mold"
+                                        >
+
+                                        <span>
+                                            Chocolate Mold (I.e. Bears, Stars, Lips, etc. )
+                                        </span>
+
+                                    </label>
+
+
+                                    <label class="checkbox-option">
+
+                                        <input
+                                            type="checkbox"
+                                            name="addons"
+                                            value="themed-decoration"
+                                        >
+
+                                        <span>
+                                            Themed Decorations
+                                        </span>
+
+                                    </label>
+
+                                    <label class="checkbox-option">
+
+                                        <input
+                                            type="checkbox"
+                                            name="addons"
+                                            value="vintage-piping"
+                                        >
+
+                                        <span>
+                                            Bows
+                                        </span>
+
+                                    </label>
+
+
+                                </div>
+
+                            </fieldset>
+
+
+
+                            <!-- INSPIRATION -->
+
+                            <div class="order-field">
+
+                                <label for="inspirationImages">
+                                    Inspiration Images
+                                </label>
+
+                                <input
+                                    type="file"
+                                    id="inspirationImages"
+                                    name="inspirationImages"
+                                    accept="image/*"
+                                    multiple
+                                >
+
+                                <p class="field-help">
+                                    Upload photos that show the style,
+                                    colors, or design you're looking for.
+                                </p>
+
+                            </div>
+
+
+
+                            <div class="order-field">
+
+                                <label for="designNotes">
+                                    Additional Design Notes
+                                </label>
+
+                                <textarea
+                                    id="designNotes"
+                                    name="designNotes"
+                                    rows="6"
+                                    placeholder="Tell me anything else I should know about your design."
+                                ></textarea>
+
+                            </div>
+
+
+                        </div>
+
+                    </section>
+
+                    <!-- ========================================
+     ADD ANOTHER CAKE
+======================================== -->
+
+<section class="additional-cakes-section">
+
+    <div id="savedCakes"></div>
+
+    <button
+        type="button"
+        class="btn add-cake-button"
+        id="addAnotherCake"
+    >
+        + Add Another Cake
+    </button>
+
+    <p class="field-help">
+        Adding another cake will save your current cake
+        and clear the cake-building fields for your next selection.
+    </p>
+
+</section>
+
+                    <!-- ========================================
+                         06 - ALLERGIES
+                    ========================================= -->
+
+                    <section class="order-form-section">
+
+                        <div class="order-section-heading">
+
+                            <span class="order-section-number">
+                                06
+                            </span>
+
+                            <div>
+
+                                <p class="order-section-label">
+                                    Food Safety
+                                </p>
+
+                                <h2>
+                                    Allergies
+                                </h2>
+
+                            </div>
+
+                        </div>
+
+
+                        <fieldset class="order-fieldset">
+
+                            <legend>
+                                Do you have any food allergies? *
+                            </legend>
+
+
+                            <div class="radio-options">
+
+
+                                <label class="radio-option">
+
+                                    <input
+                                        type="radio"
+                                        name="hasAllergies"
+                                        value="no"
+                                        required
+                                    >
+
+                                    <span>
+                                        No
+                                    </span>
+
+                                </label>
+
+
+                                <label class="radio-option">
+
+                                    <input
+                                        type="radio"
+                                        name="hasAllergies"
+                                        value="yes"
+                                        required
+                                    >
+
+                                    <span>
+                                        Yes
+                                    </span>
+
+                                </label>
+
+
+                            </div>
+
+                        </fieldset>
+
+
+
+                        <div
+                            class="order-field conditional-field allergy-field"
+                            id="allergyDetailsField"
+                        >
+
+                            <label for="allergyDetails">
+                                Please List All Allergies *
+                            </label>
+
+                            <textarea
+                                id="allergyDetails"
+                                name="allergyDetails"
+                                rows="4"
+                                placeholder="List all known food allergies."
+                            ></textarea>
+
+                        </div>
+
+                    </section>
+
+
+
+                    <!-- ========================================
+                         07 - FULFILLMENT
+                    ========================================= -->
+
+                    <section class="order-form-section">
+
+                        <div class="order-section-heading">
+
+                            <span class="order-section-number">
+                                07
+                            </span>
+
+                            <div>
+
+                                <p class="order-section-label">
+                                    Getting Your Cake
+                                </p>
+
+                                <h2>
+                                    Pickup Or Delivery
+                                </h2>
+
+                            </div>
+
+                        </div>
+
+
+                        <fieldset class="order-fieldset">
+
+                            <legend>
+                                How would you like to receive your order? *
+                            </legend>
+
+
+                            <div class="fulfillment-options">
+
+
+                                <label class="radio-option">
+
+                                    <input
+                                        type="radio"
+                                        name="fulfillment"
+                                        value="pickup"
+                                        required
+                                    >
+
+                                    <span>
+                                        Pickup
+                                    </span>
+
+                                </label>
+
+
+                                <label class="radio-option">
+
+                                    <input
+                                        type="radio"
+                                        name="fulfillment"
+                                        value="meetup"
+                                        required
+                                    >
+
+                                    <span>
+                                        Meetup
+                                    </span>
+
+                                </label>
+
+
+                                <label class="radio-option">
+
+                                    <input
+                                        type="radio"
+                                        name="fulfillment"
+                                        value="delivery"
+                                        required
+                                    >
+
+                                    <span>
+                                        Delivery
+                                    </span>
+
+                                </label>
+
+
+                            </div>
+
+                        </fieldset>
+
+
+
+                        <!-- DELIVERY ADDRESS -->
+
+                        <div
+                            class="conditional-field fulfillment-details"
+                            id="deliveryFields"
+                        >
+
+                            <div class="order-fields">
+
+                                <div class="order-field">
+
+                                    <label for="deliveryAddress">
+                                        Delivery Address *
+                                    </label>
+
+                                    <input
+                                        type="text"
+                                        id="deliveryAddress"
+                                        name="deliveryAddress"
+                                        placeholder="Street address"
+                                    >
+
+                                </div>
+
+
+                                <div class="order-fields two-column nested-fields">
+
+
+                                    <div class="order-field">
+
+                                        <label for="deliveryCity">
+                                            City *
+                                        </label>
+
+                                        <input
+                                            type="text"
+                                            id="deliveryCity"
+                                            name="deliveryCity"
+                                        >
+
+                                    </div>
+
+
+                                    <div class="order-field">
+
+                                        <label for="deliveryZip">
+                                            ZIP Code *
+                                        </label>
+
+                                        <input
+                                            type="text"
+                                            id="deliveryZip"
+                                            name="deliveryZip"
+                                        >
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- MEETUP -->
+
+                        <div
+                            class="conditional-field fulfillment-details"
+                            id="meetupFields"
+                        >
+
+                            <div class="order-field">
+
+                                <label for="meetupNotes">
+                                    Meetup Notes
+                                </label>
+
+                                <textarea
+                                    id="meetupNotes"
+                                    name="meetupNotes"
+                                    rows="4"
+                                    placeholder="Preferred area or other meetup information."
+                                ></textarea>
+
+                            </div>
+
+                        </div>
+
+                    </section>
+
+
+
+                    <!-- ========================================
+                         08 - ESTIMATE
+                    ========================================= -->
+
+                    <section class="order-estimate-section">
+
+                        <div>
+
+                            <p class="order-section-label">
+                                Your Order
+                            </p>
+
+                            <h2>
+                                Estimated Price
+                            </h2>
+
+                        </div>
+
+
+                        <div class="estimate-box">
+
+                            <div class="estimate-row">
+
+                                <span>
+                                    Product
+                                </span>
+
+                                <strong id="estimateProduct">
+                                    —
+                                </strong>
+
+                            </div>
+
+
+                            <div class="estimate-row">
+
+                                <span>
+                                    Size
+                                </span>
+
+                                <strong id="estimateSize">
+                                    —
+                                </strong>
+
+                            </div>
+
+
+                            <div class="estimate-row">
+
+                                <span>
+                                    Flavor
+                                </span>
+
+                                <strong id="estimateFlavor">
+                                    —
+                                </strong>
+
+                            </div>
+
+
+                            <div class="estimate-row">
+
+                                <span>
+                                    Icing
+                                </span>
+
+                                <strong id="estimateIcing">
+                                    —
+                                </strong>
+
+                            </div>
+
+
+                            <div class="estimate-row">
+
+                                <span>
+                                    Add-Ons
+                                </span>
+
+                                <strong id="estimateAddons">
+                                    —
+                                </strong>
+
+                            </div>
+
+
+                            <div class="estimate-total">
+
+                                <span>
+                                    Estimated Total
+                                </span>
+
+                                <strong id="estimatedTotal">
+                                    Pricing Pending
+                                </strong>
+
+                            </div>
+
+
+                            <p class="estimate-disclaimer">
+                                Final pricing is confirmed after
+                                your design request is reviewed.
+                            </p>
+
+                        </div>
+
+                    </section>
+
+
+
+                    <!-- ========================================
+                         09 - AGREEMENT
+                    ========================================= -->
+
+                    <section class="order-form-section">
+
+                        <div class="order-section-heading">
+
+                            <span class="order-section-number">
+                                09
+                            </span>
+
+                            <div>
+
+                                <p class="order-section-label">
+                                    Almost Done
+                                </p>
+
+                                <h2>
+                                    Review + Submit
+                                </h2>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="agreement-list">
+
+
+                            <label class="agreement-option">
+
+                                <input
+                                    type="checkbox"
+                                    id="policyAgreement"
+                                    name="policyAgreement"
+                                    required
+                                >
+
+                                <span>
+                                    I have reviewed and agree to the
+                                    <a
+                                        href="policies.html"
+                                        target="_blank"
+                                    >
+                                        7Bill Cakes Policies
+                                    </a>.
+                                </span>
+
+                            </label>
+
+
+
+                            <label class="agreement-option">
+
+                                <input
+                                    type="checkbox"
+                                    required
+                                >
+
+                                <span>
+                                    I understand that my order is not
+                                    confirmed until the required
+                                    deposit is received.
+                                </span>
+
+                            </label>
+
+
+
+                            <label class="agreement-option">
+
+                                <input
+                                    type="checkbox"
+                                    required
+                                >
+
+                                <span>
+                                    I understand that displayed pricing
+                                    is an estimate until my order and
+                                    design are reviewed.
+                                </span>
+
+                            </label>
+
+
+                        </div>
+
+
+
+                        <button
+                            type="submit"
+                            class="btn btn-primary order-submit"
+                        >
+                            Submit Order Request
+                        </button>
+
+                        <p
+                          class="form-status"
+                          id="orderFormStatus"
+                         aria-live="polite"
+                         ></p>
+
+                    </section>
+
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+ <!-- =========================
+         FOOTER PLACEHOLDER
+    ========================== -->
+    <footer class="site-footer" id="contact">
+        <div class="container">
+            <p>© 2026 SevenBill Enterprise</p>
+        </div>
+    </footer>
+
+
+    <script src="scripts.js"></script>
+
+    </body>
+</html>
